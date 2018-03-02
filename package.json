@@ -1,0 +1,23 @@
+{
+  "name": "slack-invitator-api",
+  "version": "1.0.0",
+  "description": "AWS Lambda API that receives a request with User Name and Email and invites the user to a given slack account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awshonolulu/slack-invitator-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awshonolulu/slack-invitator-api/issues"
+  },
+  "homepage": "https://github.com/awshonolulu/slack-invitator-api#readme",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
